@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
     res.send('App Service one sais hi ❤️')
 })
 
-app.get('/health', (req, res) => {
-   res.send('OK')
+app.get('/fasz', (req, res) => {
+   res.send('L"O"CS')
 })
 
 app.listen(port, () => {
